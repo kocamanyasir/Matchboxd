@@ -1,0 +1,11 @@
+Bu videoyu (.mp4) görsel olarak kullanmanı İSTEMİYORUM. Sadece videodaki animasyon fiziğini, geçişleri ve hareket koreografisini referans almanı istiyorum.
+
+Bunu Framer Motion ve Tailwind CSS kullanarak saf bir React bileşeni (ShowreelMatch.tsx) olarak kodla:
+
+1. Girdi: TMDb API'den gelen 8-10 adet film afişi URL'i (`posters: string[]`) ve en yüksek eşleşen film objesi (`topMatch`).
+2. Sahne 1 (Giriş): Afişler videonun 00:01 anındaki gibi önce merkezde toplanıp ardından dairesel bir çember (orbit) halinde dışa açılsın.
+3. Sahne 2 (Dönüş): Afiş kartları yumuşak bir easing ile dairesel bir eksende 3-4 saniye dönsün (loading hissi versin).
+4. Sahne 3 (Büyük Final): Dönüş yavaşlayıp dursun; `topMatch` olan film afişi videonun sonundaki gibi merkeze doğru büyüsün (`scale: 1.8`, `z-index: 50`), diğer afişler arka planda hafif flulaşsın (blur + düşük opaklık).
+5. Büyüyen afişin altında "En Çok Sevdiğiniz Ortak Film: [Film Adı]" ve iki kullanıcının verdiği yıldız puanları belirtsin.
+
+Lütfen herhangi bir video kütüphanesi değil, doğrudan CSS/Framer Motion matematiksel koordinatları (sin/cos hesaplaması) ile bunu oluştur.

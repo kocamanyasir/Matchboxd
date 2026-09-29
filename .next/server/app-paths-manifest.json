@@ -1,0 +1,5 @@
+{
+  "/api/validate-username/route": "app/api/validate-username/route.js",
+  "/page": "app/page.js",
+  "/api/match/route": "app/api/match/route.js"
+}
